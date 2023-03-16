@@ -1,17 +1,21 @@
-public class M1{
-    public static void  main(String []args){
-     MyThread m=new MyThread("Sharkz");
-      Thread t=new Thread(m);
-      t.start();
+//LEC ONE
+//CREATING A SINGLE THREAD BY IMPLEMENTING RUNNABLE INTERFACE
+public class M1 {
+  public static void main(String[] args) {
+    MyThread m = new MyThread("Sharkz");
+    Thread t = new Thread(m);
+    t.start();
   }
 }
-class MyThread implements Runnable{
-    String name;
-     MyThread(String n){
-     this.name=n;
-    }
-    
-    public void run(){
-      System.out.println(name);
-   }
+
+class MyThread implements Runnable {
+  String name;
+
+  MyThread(String n) {
+    this.name = n;
+  }
+
+  public void run() {
+    System.out.println(name);
+  }
 }
