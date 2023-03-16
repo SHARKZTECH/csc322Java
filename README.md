@@ -1,15 +1,16 @@
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
-import java.io.*;
-import java.net.*;
-import java.util.*;
-class Client {
-    public static void main(String[] args) {
-        Socket s=null;
-        InputStreamReader in=null;
-        OutputStreamWriter out=null;
-        BufferedReader br=null;
-        BufferedWriter bw=null;
+```
+    import java.io.*;
+    import java.net.*;
+    import java.util.*;
+    class Client {
+        public static void main(String[] args) {
+            Socket s=null;
+            InputStreamReader in=null;
+            OutputStreamWriter out=null;
+            BufferedReader br=null;
+            BufferedWriter bw=null;
         
         try{
             s=new Socket("localhost",1234);
@@ -96,3 +97,4 @@ class Server {
           
         }
 }
+```
