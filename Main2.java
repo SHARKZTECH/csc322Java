@@ -1,3 +1,4 @@
+//LEC ONE
 //THE THIRD EXAMPLE: CREATING MULT-THREADS USING DIFF CLASSES BY IMPLEMENTING RUNNABLE
 public class Main2 {
     public static void main(String[] args) {

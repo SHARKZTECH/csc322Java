@@ -1,5 +1,7 @@
 import java.net.*;
 
+//LEC TWO
+//EXTRACTING DIFF PARTS OF URL
 public class Net1 {
     public static void main(String[] args) {
         URL url = null;

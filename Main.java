@@ -1,3 +1,4 @@
+//LEC ONE
 //THE FIRST EXAMPLE: CREATING MULT-THREADS USING DIFF CLASSES BY EXTENDING THREAD CLASS
 public class Main {
     public static void main(String[] args) {

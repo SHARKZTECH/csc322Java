@@ -1,3 +1,6 @@
+
+//LEC THREE
+//SIMMILAR TO Client.java
 import java.net.*;
 import java.io.*;
 import java.util.*;

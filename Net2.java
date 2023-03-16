@@ -1,4 +1,6 @@
 import java.io.BufferedReader;
+//LEC TWO
+//PRINT OUT CONTENT FROM URL
 import java.io.*;
 import java.net.*;
 

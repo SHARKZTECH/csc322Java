@@ -1,4 +1,6 @@
 
+//LEC THREE
+//CLIENT-SIDE CODE FOR SERVER CLIENT COMMUNICATION
 import java.io.*;
 import java.net.*;
 import java.util.*;
