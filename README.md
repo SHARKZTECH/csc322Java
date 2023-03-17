@@ -1,4 +1,4 @@
-public class UPDClient throw IOExpection{
+```public class UPDClient throw IOExpection{
     public static void main(String[] args){
         DatagramSocket client=new DatagramSocket();
         InetAddress add=InetAddress.getByName("localhost");
@@ -21,3 +21,4 @@ public class UPDServer throw IOExpection{
 
     }
 }
+```
